@@ -1,5 +1,5 @@
 
-class Saample extends Exaample {
+class Saample  {
 	Saample(){
 		System.out.println("s int-par");
 	}

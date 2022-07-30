@@ -7,8 +7,8 @@ public class Employee {
 	// overriding toString() method to print obj data
 	public String toString() {
 		return "eid: " + eid + "\n"+
-				"ename: " + ename + "\n"
-				"company " + company + "\n";
+				"ename: " + ename + "\n";
+			//	"company: " + company + "\n";
 	}
 	public static void main(String[] args) {
 		Employee e1 = new Employee();
