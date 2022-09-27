@@ -4,7 +4,7 @@ public class Rectangle_111 implements Shape_111{
 	private double l;
 	private double b;
 	
-	public void Recatange_111(double l, double b) {
+	public Rectangle_111(double l, double b) {
 		this.l = l;
 		this.b = b;
 	}
