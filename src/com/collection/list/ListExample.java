@@ -7,33 +7,32 @@ public class ListExample {
 
 	public static void main(String[] args) {
 		
-		List<String> myList = new ArrayList<String>();
+		List<String> listString = new ArrayList<String>();
 		
-		myList.add("A");
-		myList.add("C");
-		myList.add("B");
+		listString.add("a");
+		listString.add("x");
+		listString.add("p");
+		listString.add("156");
 		
-		System.out.println("*******Using For loop");
-		for(int i=0; i< myList.size(); i++) {
-			
-			System.out.println(myList.get(i));
+		// iterate the list
+		System.out.println("for loop");
+		for(int i=0; i<listString.size(); i++) {
+	//		System.out.println(i);
+			System.out.println(listString.get(i));
 		}
 		
-		System.out.println("*******Using ForEach loop");
-		
-		for(String str: myList) {
-			System.out.println(str);
+		System.out.println("");
+		for(String liStri : listString) {
+			System.out.println(liStri);
 		}
 		
-		System.out.println("*******Using While loop");
-		
+		System.out.println("while condition");
 		int i=0;
-		
-		while(i < myList.size()) {
-			
-			System.out.println(myList.get(i));
+		while(i<listString.size()){
+			System.out.println(listString.get(i));
 			i++;
 		}
+		
 	}
 
 }

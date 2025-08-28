@@ -8,7 +8,7 @@ public class ListForEach {
 		// TODO Auto-generated method stub
 		
 		// Creating an ArrayList
-        List<String> myList = new ArrayList<String>();
+       List<String> myList = new ArrayList<String>();
  
         // Adding elements to the List
         // Custom inputs
@@ -17,18 +17,15 @@ public class ListForEach {
         myList.add("C");
         myList.add("D");
         
-        myList.forEach( e -> System.out.println(e));
-        
-        System.out.println("2nd way of printing... ");
-        myList.forEach(
-        		(e) -> {System.out.println(e);}
-        		);
-        
-        System.out.println("Using streams***");
-        
-        myList.stream().forEach(e -> System.out.println(e));
-        
+       System.out.println(" for each ");
 
+       myList.forEach(e -> System.out.println(e));
+       
+       myList.forEach((e) -> {System.out.println(e);});
+       
+       ////
+       System.out.println("using Streams");
+       myList.stream().forEach(e -> System.out.println(e));
 	}
 
 }
